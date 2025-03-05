@@ -10,12 +10,12 @@ function App() {
   const padding = 60;
 
   useEffect(() => {
-    // fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json')
-    //   .then(response => response.json())
-    //   .then(data => {
-    //     setMyData(data.data);
-    //   })
-    //   .then(() => setLoad(true));
+    fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json')
+      .then(response => response.json())
+      .then(data => {
+        setMyData(data.data);
+      })
+      .then(() => setLoad(true));
 
   }, [0]);
 
