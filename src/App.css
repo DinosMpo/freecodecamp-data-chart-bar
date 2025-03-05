@@ -1,0 +1,49 @@
+#App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#chart {
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.bar:hover {
+    fill: white;
+}
+
+#container {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+#tooltip {
+    background-color: white;
+    font-family: 'Arial';
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid black;
+    opacity: 0;
+}
+
+#created {
+    margin-top: 15px;
+}
+
+#created a {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Arial";
+}
